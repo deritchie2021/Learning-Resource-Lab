@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Learning Resource Lab</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    </head>
+    <body>
+     <div id="menu">
+                <ul>
+                    <li><a href="Login.html" class="active">Go Back</a></li>
+                                    </ul>
+            </div>  
+        
+        <style>
+        ul{
+            list-style: none;
+        }
+        
+        #menu ul li{
+            float:left;
+            padding: 0 30px;
+            height: 30px;
+            border-right: 1px solid cadetblue;
+        }
+        
+        #menu ul li:last-child{
+            border-right: none;
+        }
+        
+        #menu ul li a:hover, #menu ul li a.active {
+            font-size: 20px;
+            font-weight: bold;
+            color: cadetblue;
+        }
+            }
+        </style>
+        
+        <div class="heading">
+        <h1>About Us</h1>
+        <p>The Learning Resource Lab is a Bahamian owned platform for diverse learners.</p>
+        </div>      
+    <div class="container">
+        <section class="about">
+        <div class="about-image">
+        <img src="Images/geoimage.jpg">
+        </div>
+        <div class="about-content">
+        <h2>Learning Resource Lab</h2>
+        <p>Many students find it difficult to focus in a traditional classroom. This online learning platform will help your child to learn at their level with a variety of activities, content notes and differentiated instructions. Your child will have an unlimited access of class notes and videos tailored to the Ministry of Education's Curriculum. Also, parents can track their child's progress and communicate with teachers using the virtual chat button for guidance on homework, coursework, and school projects. </p>
+        <a href="" class="read-more">Read More</a>
+        </div>
+        </section>
+        </div>
+        
+<style>
+    .container{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;  
+    }   
+    body{
+    background:azure ;
+    }
+    .heading{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .heading h1{
+        font-size: 50px;
+        color: darkslateblue;
+        margin-bottom: 25px;
+        position: relative;
+    }  
+    .heading h1::after{
+        content:"";
+        position: absolute;
+        width:100%;
+        height: 4px;
+        display:block;
+        margin: 0 auto;
+        background-color: lightblue;
+    }
+    .heading p{
+        font-size: : 18px;
+        color:darkslategrey;
+        margin-bottom: 35px;
+    }
+    .container{
+        width:90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-image{
+        flex:1;
+        margin-right: 60px;
+        overflow: hidden;
+    }
+    .about-image img{
+        max-width: 100%;
+        height:auto;
+        display: black;
+        transition: 0.5% ease;
+    }
+    .about-image:hover img{
+        transform: scale(1.2);
+    }
+    .about-content{
+        flex:1;
+    }
+    .about-content h2{
+    font-size: 23px;
+        margin-bottom: 15px;
+        color:darkslateblue;
+    }
+    .about-content p{
+        font-size: 18px;
+        line-height: 1.5;
+        color: darkslategrey;
+    }
+    .about-content .read-more{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:  lightblue;
+        color:white;
+        font-size: 19px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 15px;
+        transition: 0.3s ease;
+    }
+    .about-content .readmore: hover{
+        background-color: #3e8e41;
+    }
+    @media screen and (max-width:768px){
+        .heading{
+        padding:0px 20px;
+        }
+        .heading h1{
+            font-size: 36px;
+        }
+        .heading p{
+            font-size:17px;
+            margin-bottom: 0px;
+        }
+        .container{
+            padding: 0px;
+        }
+        .about{
+           padding: 20px;
+            flex-direction: column;
+        }
+        .about-image{
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .about-content p{
+           padding: 0px;
+            font-size: 16px;
+        }
+        .about-content. read-more{
+            font-size: 16px; 
+        }
+    }
+        </style>
+    </body>
+    
+<br />
+             <style>
+            .footer{
+            height:60px;
+            background:linear-gradient(whitesmoke,azure, whitesmoke);
+            background:-moz-linear-gradient(whitesmoke,azure, whitesmoke);
+            background:-o-linear-gradient(whitesmoke,azure, whitesmoke);
+            background:-webkit-linear-gradient(whitesmoke,azure, whitesmoke);
+            padding: 10px 30px;
+            margin-top: 15px;
+                  </style>
+    
+             <div class="clear"></div>
+    <footer class="footer">
+        <div>
+        <p>Learning Resource Lab, Copyright &copy; 2024</p>
+        </div>
+            </footer>
+</html>
